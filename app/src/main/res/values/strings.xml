@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">MSU Sports</string>
+    <string name="Regnum">Reg Number</string>
+    <string name="Signin">Don\'t have an account? Sign in here.</string>
+    <string name="Forgot">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="delete">DELETE</string>
+    <string name="select">Select</string>
+
+    <!-- Register -->
+    <string name="cell">Phone Number</string>
+    <string name="fname">First Name</string>
+    <string name="title">Title</string>
+    <string name="username">Username</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="gender">Sex</string>
+
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="recoveryText">Please enter your Registration number and email.</string>
+    <string name="resetText">Please input your new password.</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hockey_team">Hockey Team</string>
+    <string name="soccer_team">Soccer Team</string>
+    <string name="basketball_team">BasketBall Team</string>
+    <string name="sports_update_events">Sport Update and Events</string>
+    <string name="news_image">news_Image</string>
+    <string name="type_update">Type update…</string>
+    <string name="submit_update">Submit Update</string>
+    <string name="first_name">First Name</string>
+    <string name="surname">Surname</string>
+    <string name="events_and_sports_updates">Events &amp; Sports Updates</string>
+    <string name="register_for_sport">Register for Sport</string>
+    <string name="password">Password</string>
+    <string name="register_for_a_sport_to_view_updates">Register for a sport to view Updates</string>
+    <string name="click_here_to_view_in_graphical_form">Click here to view in graphical form</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_3">Level 3</string>
+    <string name="level_4">Level 4</string>
+    <string name="level_5">Level 5</string>
+    <string name="rate_this_app">Rate this App</string>
+    <string name="please_rate_this_app_and_show_some_love">Please rate this App and show some love</string>
+    <string name="user">Username:</string>
+    <string name="login_time">Login Time:</string>
+    <string name="logout_time">Logout Time:</string>
+    <string name="enter_user_id">Enter User ID</string>
+    <string name="create_user">Create User</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_user_click_here_to_complete_registration">New User? Click here to Complete Registration</string>
+    <string name="terrible">Terrible</string>
+    <string name="bad">Bad</string>
+    <string name="okay">Okay</string>
+    <string name="good">Good</string>
+    <string name="great">Great</string>
+
+    <string-array name="Level">
+        <item>Level 1.1</item>
+        <item>Level 1.2</item>
+        <item>Level 2.1</item>
+        <item>Level 2.2</item>
+        <item>Level 3.1</item>
+        <item>Level 3.2</item>
+        <item>Level 4.1</item>
+        <item>Level 4.2</item>
+        <item>Level 5.1</item>
+        <item>Level 5.2</item>
+    </string-array>
+
+    <string-array name="sports">
+        <item>Soccer</item>
+        <item>Basketball</item>
+        <item>Hockey</item>
+    </string-array>
+
+    <string-array name="access_level">
+        <item>Student</item>
+        <item>Coach</item>
+    </string-array>
+
+</resources>

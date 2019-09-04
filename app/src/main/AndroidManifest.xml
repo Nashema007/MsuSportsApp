@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.msusportsapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".utilities.SciChartApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:allowClearUserData="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activities.CreatePasswordActivity"/>
+        <activity android:name=".activities.RateActivity" />
+        <activity
+            android:name=".activities.ViewAppRatingActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity android:name=".activities.CreateUserActivity"
+            android:theme="@style/ActionBarTheme"/>
+        <activity
+            android:name=".activities.DeleteUserActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity
+            android:name=".activities.ViewLogActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity
+            android:name=".activities.AdminActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity android:name=".activities.DrawGraphActivity" />
+        <activity
+            android:name=".activities.TeamUpdatesActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity android:name=".activities.ViewTeamActivity" />
+        <activity android:name=".activities.ChooseTeamActivity" />
+        <activity
+            android:name=".activities.RegStudentActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity
+            android:name=".activities.StatsPerLevelActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity android:name=".activities.ArticleActivity" />
+        <activity android:name=".activities.EventsActivity" />
+        <activity
+            android:name=".activities.CoachActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity
+            android:name=".activities.StudentActivity"
+            android:theme="@style/ActionBarTheme" />
+        <activity android:name=".activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.EventUpdatesActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
